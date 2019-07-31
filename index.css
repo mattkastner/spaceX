@@ -1,0 +1,188 @@
+
+/* Actual css written by matt */
+
+body {
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background: black;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    position: fixed;
+    justify-content: space-between; 
+    z-index: 10;
+    
+}
+
+nav > h1 {
+    color: white;
+    align-items: center;
+    margin-left: 5vw;
+}
+
+.about-ships-container {
+    color: white;
+    width: 38vw;
+    font-size: 14px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about-ships-container > li:hover {
+    border-bottom: 2px solid white;
+}
+
+.about-spacex > li:hover{
+    border-bottom: 2px solid #8B939B;
+}
+
+.about-spacex {
+    color: #8B939B;
+    font-size: 10px;
+    width: 25vw;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 5vw;
+}
+
+.main-image {
+    width: 100vw;
+    height: 80vh;
+    /* position: relative; */
+}
+
+.main-image > img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-gray {
+    background-color: #20262A;
+    position: absolute;
+    display: flex;
+    bottom: 20vh;
+    opacity: .75;
+    height: 20%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 5;
+
+}
+
+.bottom-gray > h1 {
+    display: inline;
+    z-index: 4;
+    color: white;
+    width: 60%;
+}
+
+
+.bottom-gray > button {
+    height: 33%;
+    width: 17%;
+    font-size: 14px;
+    font: bold;
+}
+
+.image-selector {
+    width: 100%;
+    height: 10vh;
+    background-color: #20262A;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-selector > div {
+    width: 33%;
+    text-align: center;
+}
+
+.bordered-choice{
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+}
+
+.image-selector > div > span {
+    color: #899199;
+}
+
+.mid-text {
+    width: 100%;
+    height: 15vh;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 11px;
+    background-image: linear-gradient(#CDCDCD, #FAFAFA);
+
+}
+
+.mid-text > h2 {
+    align-self: baseline;
+}
+
+.learn-more-container {
+    height: 40vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.learn-more-container > div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0px 20px 20px 20px;
+    width: 20%;
+    -webkit-box-shadow: 0px 0px 16px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px -11px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px -11px rgba(0,0,0,0.75);
+}
+
+.learn-more-container > div > h2 {
+    font-size: 14px;
+    flex-wrap: wrap;
+
+}
+
+.learn-more-container > div > a {
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #386BA5;
+    text-align: left;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 50vh;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer > ul {
+    width: 40%;
+}
+
+footer > p {
+    color: #666666;
+    font-size: 12px;
+}
